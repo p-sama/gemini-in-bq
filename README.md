@@ -23,25 +23,27 @@ Follow the step-by-step guide in the documentation to recreate the demo and expl
   - Navigate to BigQuery
 - Select Data Preparation Interface:
   - Locate the `events` table in your dataset
-  - Click on the table
-  - Open the data preparation interface
+  - Click on the `View actions` (three dots) next to the table name
+  - Click `Open in` the `Data Preparation` to open the table in the data preparation interface
 - Utilize Gemini Suggestions:
-  - Observe the transformation suggestions provided by Gemini
+  - Observe the transformations suggestions provided by Gemini on the right side
   - Apply relevant transformations
 - Join Tables:
   - Use natural language prompts to join the `events` table with the `users` and `devices` tables
-  - Establish relationships between tables based on Gemini's suggestions
+  - Gemini automatically establishes relationships between tables. If needed, modify the join condition directly, or use a natural language prompt
 - Address Data Quality Issues:
-  - Review data quality issues identified by Gemini
-  - Apply suggested corrective actions
+  - Navigate to the data preparation visual flow, click on `users` table, and review data quality issues identified by Gemini
+  - For example, standardize name formats, remove duplicates, and handle missing values
+  - Click `Apply` to apply the suggested corrective actions
 - Add Custom Transformations:
   - Click `Add step` to create custom transformations
-  - Use natural language prompts to standardize formats, remove duplicates, and handle missing values
+  - Use natural language prompt to define a standard date format for the created_at column
 - Set Destination Table:
   - Define a destination table for the prepared data
 - Run and Schedule Workflow:
   - Click `Run Now` to execute the data pipeline
-  - Navigate to the `Scheduling` tab to schedule the workflow for daily or other cadences
+  - Click on `Schedule` to schedule the workflow for daily or other cadences
+  - Navigate to the `Scheduling` tab (left nav pane) to find / manage the workflow
 
 ### User Flow 2: Data Insights and Data Canvas
 - Access Data Canvas:
