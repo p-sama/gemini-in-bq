@@ -2,6 +2,14 @@
 
 This Python script demonstrates data manipulation, anomaly generation, and visualization using BigQuery and Gemini with built in python notebook. The script is designed to work with event data stored in Google BigQuery.
 
+## Key Features
+
+- Built-in Jupyter notebook compatibility
+- Gemini code assist integration
+- Visualization recommendations
+- Anomaly detection visualization
+- BigQuery integration for data storage and retrieval
+
 ## Prerequisites
 
 You'll need:
@@ -17,9 +25,7 @@ Create anomalous data:
   - Focuses on groups with more than 240 records
   - Sets anomaly values 5-10 standard deviations from mean
 
-## Demo
-
-The script is divided into several main sections:
+## User Flow 4: Python Notebook
 
 ### 1. BigQuery Data Loading
 - Loads event data from BigQuery table `data-cloud-demo5.next25_demo_ds.events_test` using built in python library
@@ -39,14 +45,6 @@ The script is divided into several main sections:
 - Creates scatter plots of bytes transferred over time
 - Generates heatmaps to visualize data distribution
 - Identifies anomalous patterns in the data
-
-## Key Features
-
-- Built-in Jupyter notebook compatibility
-- Gemini code assist integration
-- Visualization recommendations
-- Anomaly detection visualization
-- BigQuery integration for data storage and retrieval
 
 ## Notes
 
