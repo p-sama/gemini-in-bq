@@ -22,7 +22,9 @@ Create anomalous data:
 The script is divided into several main sections:
 
 ### 1. BigQuery Data Loading
-- Loads event data from BigQuery table `data-cloud-demo5.next25_demo_ds.events_test` using built in python library.
+- Loads event data from BigQuery table `data-cloud-demo5.next25_demo_ds.events_test` using built in python library
+- To use Code Assist prompt `Load  table_id = "data-cloud-demo5.event_test"`: Create a new Code cell -> click Gemini Icon -> Generate Code -> Paste the prompt -> Enter
+- Preview table using `df.head(3)`, then clikc the `Suggest charts` icon on the right of the table to see recommended charts
 
 ### 2. Data Transformation
 - Converts timestamp column to datetime64 format
@@ -31,6 +33,7 @@ The script is divided into several main sections:
   - Month
   - Day
   - Hour
+- Use Code Assist prompt `extract all columns, in addition, create new column for year, month, date, hours from data-cloud-demo5.event_test`
 
 ### 3. Visualization
 - Creates scatter plots of bytes transferred over time
