@@ -74,5 +74,8 @@ Follow the step-by-step guide in the documentation to recreate the demo and expl
   - Click on `Explain`
 - Review the explanation provided by Cloud Assist, detailing the query's logic and functionality
 
+### User Flow 4: Python Notebook
+- See [README_flow4.md](https://github.com/p-sama/gemini-in-bq/blob/main/README_flow4.md)
+
 
 
