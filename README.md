@@ -42,7 +42,7 @@ Follow the step-by-step guide in the documentation to recreate the demo and expl
   - Click `Apply` to apply the suggested corrective actions
 - Add Custom Transformations:
   - Click `Add step` to create custom transformations
-  - Use natural language prompt to define a standard date format for the created_at column
+  - Use natural language prompt to define a standard date format for the created_at column. For example, use the prompt - "transform created_at column from string to a standard date format %Y-%m-%d"
 - Set Destination Table:
   - Define a destination table for the prepared data
 - Run and Schedule Workflow:
