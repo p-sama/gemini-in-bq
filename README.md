@@ -82,5 +82,11 @@ Follow the step-by-step guide in the documentation to recreate the demo and expl
 ### User Flow 4: Python Notebook
 - See [README_flow4.md](https://github.com/p-sama/gemini-in-bq/blob/main/README_flow4.md)
 
+## Useful Resources
+- Public Documentation: [Explore Gemini in BigQuery](https://cloud.google.com/gemini/docs/bigquery/overview)
+- Practice Lab: [Boost Productivity with Gemini in BigQuery](https://www.cloudskillsboost.google/course_templates/1169/labs/515186)
+- Practice Lab: [Gemini for Data Scientists and Analysts](https://www.cloudskillsboost.google/course_templates/879/labs/476688)
+
+
 
 
